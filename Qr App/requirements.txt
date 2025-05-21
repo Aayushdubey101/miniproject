@@ -1,0 +1,12 @@
+# Core dependencies
+tkinter
+pillow
+pyperclip
+
+# QR code handling
+qrcode
+pyzbar
+opencv-python
+
+# Other utilities
+numpy
