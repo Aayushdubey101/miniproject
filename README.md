@@ -14,6 +14,17 @@ Welcome to **MiniProject** — a curated portfolio of hands-on mini-projects in 
 - 🔹 **Upcoming AI & Tech Explorations**
 
 ---
+## ✅ Completed Projects
+
+The following projects are **fully implemented and working**:
+
+| Category        | Project Name                              | Description |
+|-----------------|-------------------------------------------|-------------|
+| Python Utility  | **QR Code Generator**                     | Generates QR codes for text, links, and data using Python |
+| Python Utility  | **Contact Book Manager**                  | CLI-based contact management system with add/search/update features |
+| AI Application | **AI Resume & Cover Letter Builder**      | Streamlit app using Groq API to generate professional resumes and cover letters |
+
+---
 
 ## 🧩 Current Projects
 
@@ -80,7 +91,8 @@ cd miniproject
 cd machine-learning/linear-regression
 
 # Install dependencies
-pip install -r requirements.txt
+uv sync or 
+pip install -r requirements.txt 
 
 # Run the script
-python main.py
+python main.py 
