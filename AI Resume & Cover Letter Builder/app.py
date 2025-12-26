@@ -3,7 +3,7 @@ from groq import Groq
 from utils import generate_resume_pdf, generate_cover_letter_pdf
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="#YOUR_GROQ_API_KEY#")
 
 st.set_page_config(page_title="AI Resume & Cover Letter Builder", page_icon="📝")
 st.title("✨ AI Resume & Cover Letter Builder")
