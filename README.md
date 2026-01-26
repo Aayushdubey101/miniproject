@@ -1,6 +1,6 @@
-# 🚀 MiniProject: A Collection of Tech Explorations
+# 🚀 Project_Base: A Collection of Tech Explorations
 
-Welcome to **MiniProject** — a curated portfolio of hands-on mini-projects in **Python**, **Machine Learning**, **Data Science**, and **Tech Utilities**. This repository is ideal for learners, developers, and data enthusiasts to explore practical coding solutions and real-world tech experiments.
+Welcome to **Project_Base** — a curated portfolio of hands-on mini-projects in **Python**, **Machine Learning**, **Data Science**, and **Tech Utilities**. This repository is ideal for learners, developers, and data enthusiasts to explore practical coding solutions and real-world tech experiments.
 
 ---
 
@@ -129,8 +129,8 @@ Here's a sneak peek into our exciting roadmap of future projects:
 
 ```bash
 # Clone this repository
-git clone https://github.com/Aayushdubey101/miniproject.git
-cd miniproject
+git clone https://github.com/Aayushdubey101/Project_Base.git
+cd Project_Base
 
 # Navigate to a specific project
 cd automation-tools/voiceleaf-pdf-to-audio
@@ -172,7 +172,7 @@ You can copy the content from the artifact panel on the right, or click the down
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Aayushdubey101/miniproject/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Aayushdubey101/Project_Base/issues).
 
 ---
 
