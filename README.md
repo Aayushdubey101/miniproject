@@ -14,6 +14,7 @@ Welcome to **MiniProject** — a curated portfolio of hands-on mini-projects in 
 - 🔹 **Upcoming AI & Tech Explorations**
 
 ---
+
 ## ✅ Completed Projects
 
 The following projects are **fully implemented and working**:
@@ -22,7 +23,9 @@ The following projects are **fully implemented and working**:
 |-----------------|-------------------------------------------|-------------|
 | Python Utility  | **QR Code Generator**                     | Generates QR codes for text, links, and data using Python |
 | Python Utility  | **Contact Book Manager**                  | CLI-based contact management system with add/search/update features |
-| AI Application | **AI Resume & Cover Letter Builder**      | Streamlit app using Groq API to generate professional resumes and cover letters |
+| AI Application  | **AI Resume & Cover Letter Builder**      | Streamlit app using Groq API to generate professional resumes and cover letters |
+| Automation Tool | **VoiceLeaf - PDF to Audio Converter**    | Converts PDF documents into high-quality audio files using advanced TTS technology |
+| ML Classifier   | **Insurance Premium Category Predictor**  | Predicts insurance premium categories based on customer demographics and health data |
 
 ---
 
@@ -30,7 +33,6 @@ The following projects are **fully implemented and working**:
 
 | Category        | Project Name            | Description                                      |
 |----------------|-------------------------|--------------------------------------------------|
-| Python Script  | PDF to Audio Converter  | Converts any PDF file into audio using TTS       |
 | ML Model       | Linear Regression       | Predict numerical values using regression        |
 | ML Classifier  | Titanic Survival        | Predict passenger survival using ML classifier   |
 | Data Analysis  | Netflix EDA             | Explore and visualize Netflix dataset            |
@@ -40,11 +42,11 @@ The following projects are **fully implemented and working**:
 
 ## 🌟 Planned & Future Projects (20)
 
-Here’s a sneak peek into our exciting roadmap of future projects:
+Here's a sneak peek into our exciting roadmap of future projects:
 
 | #  | Project Title                          | Description |
 |----|----------------------------------------|-------------|
-| 1  | **QR Code Generator and Scanner**      | Create and scan QR codes using Python. |
+| 1  | **QR Code Scanner**                    | Scan and decode QR codes using Python and OpenCV. |
 | 2  | **Resume Parser**                      | Extract key info (skills, experience, etc.) from PDF resumes using NLP. |
 | 3  | **Twitter Sentiment Analyzer**         | Analyze public sentiment on trending hashtags. |
 | 4  | **Chatbot using Rasa/NLTK**            | Build a rule-based and NLP-powered chatbot. |
@@ -61,7 +63,7 @@ Here’s a sneak peek into our exciting roadmap of future projects:
 | 15 | **Stock Price Predictor**              | Predict future stock prices using LSTM models. |
 | 16 | **Spotify Playlist Analyzer**          | Analyze your playlist's mood, tempo, genres, etc. |
 | 17 | **PDF Merger with GUI**                | Merge multiple PDFs with a Tkinter GUI. |
-| 18 | **AI-powered Resume Builder**          | Build smart resumes with data-driven suggestions. |
+| 18 | **Medical Diagnosis Assistant**        | AI-powered symptom checker and diagnosis helper. |
 | 19 | **Credit Card Fraud Detector**         | Use anomaly detection techniques to catch fraud. |
 | 20 | **Self-Updating Dashboard (Power BI + Python)** | Auto-refresh Power BI dashboard with Python scripts. |
 
@@ -71,28 +73,120 @@ Here’s a sneak peek into our exciting roadmap of future projects:
 
 ## 🧰 Tech Stack
 
-- **Languages**: Python 3, HTML/CSS (minor GUI work)
-- **ML Libraries**: Scikit-learn, TensorFlow, Keras
-- **Data Handling**: Pandas, NumPy
-- **Visualization**: Matplotlib, Seaborn, Plotly
-- **NLP & AI**: NLTK, spaCy, HuggingFace Transformers
-- **Tools**: OpenCV, BeautifulSoup, Flask, Power BI
+### **Core Languages**
+- Python 3.x
+- HTML/CSS (for GUI work)
+
+### **Machine Learning & AI**
+- Scikit-learn (Classification, Regression, Model Evaluation)
+- TensorFlow, Keras (Deep Learning)
+- XGBoost, LightGBM (Advanced ML)
+- Category Encoders (Feature Engineering)
+
+### **Data Processing & Analysis**
+- Pandas (Data Manipulation)
+- NumPy (Numerical Computing)
+- Feature-engine (Feature Engineering)
+
+### **Data Visualization**
+- Matplotlib
+- Seaborn
+- Plotly
+
+### **Natural Language Processing**
+- NLTK
+- spaCy
+- HuggingFace Transformers
+
+### **Text-to-Speech & Audio**
+- pyttsx3 (Offline TTS)
+- gTTS (Google Text-to-Speech)
+- PyPDF2/pdfplumber (PDF Text Extraction)
+
+### **Computer Vision**
+- OpenCV
+
+### **Web Technologies**
+- BeautifulSoup (Web Scraping)
+- Flask (Web Framework)
+- Streamlit (Data Apps)
+
+### **API Integration**
+- Groq API (AI-powered generation)
+
+### **Business Intelligence**
+- Power BI
+
+### **Development Tools**
+- Git & GitHub
+- Jupyter Notebook
+- VS Code
+- uv (Python Package Management)
 
 ---
 
 ## ⚙️ How to Use
 
 ```bash
-/*# Clone this repository
+# Clone this repository
 git clone https://github.com/Aayushdubey101/miniproject.git
 cd miniproject
 
 # Navigate to a specific project
-cd machine-learning/linear-regression
+cd automation-tools/voiceleaf-pdf-to-audio
+# or
+cd machine-learning/insurance-premium-predictor
 
-# Install dependencies
-uv sync or 
+# Install dependencies using uv (recommended)
+uv sync
+
+# Or use pip
 pip install -r requirements.txt 
 
 # Run the script
-python main.py 
+python main.py
+```
+
+---
+
+## 📥 Download README File
+
+You can copy the content from the artifact panel on the right, or click the download button to save it as `README.md`.
+
+---
+
+## 📊 Project Highlights
+
+### VoiceLeaf - PDF to Audio Converter
+- **Features**: Extracts text from PDFs and converts to natural-sounding audio
+- **Use Case**: Accessibility tool, audiobook creation, hands-free reading
+- **Tech**: PyPDF2, pyttsx3/gTTS, Python
+
+### Insurance Premium Category Predictor
+- **Features**: Multi-class classification model with feature engineering
+- **Accuracy**: Optimized using ensemble methods and hyperparameter tuning
+- **Use Case**: Insurance risk assessment, premium calculation automation
+- **Tech**: Scikit-learn, Pandas, XGBoost, Feature Engineering
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Aayushdubey101/miniproject/issues).
+
+---
+
+## 📧 Contact
+
+**Aayush Dubey**  
+GitHub: [@Aayushdubey101](https://github.com/Aayushdubey101)
+
+---
+
+## ⭐ Show Your Support
+
+Give a ⭐️ if you found this project helpful!
+
+---
+
+**Happy Coding! 🚀**
